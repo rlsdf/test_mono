@@ -1,0 +1,22 @@
+{
+  "name": "nariku_lib_b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rlsdf/test_mono.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rlsdf/test_mono/issues"
+  },
+  "homepage": "https://github.com/rlsdf/test_mono#readme"
+}

@@ -1,13 +1,14 @@
 {
   "name": "nariku_lib_b",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack serve",
-    "build": "webpack"
+    "build": "webpack",
+    "publish": "npm publish"
   },
   "repository": {
     "type": "git",

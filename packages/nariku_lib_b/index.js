@@ -1,8 +1,9 @@
+import { format } from 'date-fns';
 import a from 'nariku_lib_a';
 
 const container = document.querySelector('.container');
-const value = Object.keys(a);
+const today = format(new Date(), 'MM/dd/yyyy');
 
-container.innerText = value;
+container.innerText = Object.keys(a) + today;
 
-export default value;
+export default Object.keys(a) + today;
